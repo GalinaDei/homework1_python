@@ -11,7 +11,6 @@ def num_is_prime(num):
     flag = False
     for i in range(2, num-2):
         if num%i == 0:
-            print(num%i)
             flag = True
         else:
             continue
